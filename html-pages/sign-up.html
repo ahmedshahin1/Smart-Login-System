@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="islam kandil" />
+    <title>log in</title>
+    <!-- links -->
+    <link rel="stylesheet" href="./../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./../css/all.min.css" />
+    <link rel="stylesheet" href="./../css/style.css" />
+    <link rel="stylesheet" href="./../css/media.css" />
+  </head>
+  <body>
+    <main class="sign-up">
+      <section class="container-fluid page-content">
+        <section class="contain text-center">
+          <h1 class="text-capitalize">Smart Login System</h1>
+          <form action="">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input"
+              placeholder="enter your name"
+            />
+            <p class="error d-none">name must be at least 3 letters</p>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input"
+              placeholder="enter your email"
+            />
+            <p class="error d-none">email is not valid</p>
+            <input
+              type="password"
+              name="pass"
+              id="pass"
+              class="mb-4 input"
+              placeholder="enter your password"
+            />
+           <p class="error d-none">password must contains at least 3 letter or digit</p>
+           <p class=" d-none" id="success">success</p>
+            <button
+              type="submit"
+              class="w-100 text-capitalize submit"
+              id="sign-up"
+            >
+              sign up
+            </button>
+          </form>
+          <section
+            class="sign-up d-flex justify-content-center align-items-center column-gap-2"
+          >
+            <p class="m-0">You have an account?</p>
+            <a href="./../index.html" class="text-capitalize">sign in</a>
+          </section>
+        </section>
+      </section>
+    </main>
+    <script src="./../js/index.js"></script>
+  </body>
+</html>
